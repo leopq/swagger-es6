@@ -1,6 +1,6 @@
 # swagger-es6
 
-Swagger.json to ES6 Client Generator
+Swagger.json to ES6 Client Generator  
 ![build](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)  ![platform](https://img.shields.io/node/v/react.svg) ![stars](https://img.shields.io/amo/stars/dustman.svg) ![license](https://img.shields.io/bower/l/bootstrap.svg)  
   
 > [![basic-merchandising](https://imgur.com/LNOYczf.png)](https://github.com/leopq)
