@@ -1,13 +1,20 @@
-/* eslint-disable */ 
-import axios from 'axios' 
-import qs from 'qs' 
-let domain = '{{&domain}}' 
-let axiosInstance = axios.create() 
+/* eslint-disable */
+import axios from 'axios'
+import qs from 'qs'
+let domain = '{{&domain}}'
+let config = '{{&config}}'
+let axiosInstance = axios.create()
 export const getDomain = () => {
   return domain
 }
 export const setDomain = ($domain) => {
   domain = $domain
+}
+export const getConfig = () => {
+  return config
+}
+export const setConfig = ($config) => {
+  domain = $config
 }
 export const getAxiosInstance = () => {
   return axiosInstance
